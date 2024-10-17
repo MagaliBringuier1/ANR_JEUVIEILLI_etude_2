@@ -1,0 +1,88 @@
+:root {
+  --width-container: 100%; 
+  --width-min-container: 40%; 
+  --height-container: 100%; 
+  --height-min-container: 40%; 
+  --border-radius-container: 0vw; 
+  --border-radius-content: 0vh; 
+  --font-family: "Arial", sans-serif;
+  --font-family-mono: Droid Mono, Menlo, Consolas, monospace; 
+  --font-size: 1rem;
+  --line-height: 1.10; 
+  --paragraph-margin-vertical: 1rem; 
+  --color-text: black; 
+  --color-gray-content: #8d8d8d;
+}
+
+/******************** Partie EEMDIC******************************************** 
+/* Suppression des espaces entre les cellules */
+table {
+  border-collapse: collapse; /* Fusionne les bordures pour éviter les espaces */
+  width: 100%; /* Prend toute la largeur du conteneur */
+  margin: 0;
+  padding: 0;
+}
+/* Suppression de tout que qui est marge */
+td {
+  padding: 0; /* Supprimer tout padding */
+  margin: 0; /* Supprimer tout margin */
+  height: 50px;
+  width: 150px;
+  border: 1px solid rgb(206, 206, 206); /* Bordure pour visualiser */
+}
+/*cache bouton radio*/
+input[type="radio"].custom-radio {
+  display: none; /* Cacher les boutons radio natifs */
+}
+/* Style du label pour remplir toute la cellule */
+input[type="radio"].custom-radio + label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-gray-background);
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+/* Changement de style quand le bouton radio est sélectionné */
+input[type="radio"].custom-radio:checked + label {
+  background-color: rgb(252, 151, 235); /* Couleur quand sélectionné */
+  border: 2px solid rgb(252, 151, 235);
+}
+
+
+/******************** Partie Jeu********************************************/ 
+/*partie jeu en noir*/
+.partie-jeu {
+  background-color: black; /* Fond noir */
+  color: white; /* Texte blanc */
+  border: 2px solid black; /* Bordure noire */
+  padding: 2px;
+  text-align: center;
+}
+/* Cacher le bouton radio natif */
+input[type="radio"].custom-radio2 {
+  display: none;
+}
+/* Style par défaut du label (image non sélectionnée) */
+input[type="radio"].custom-radio2 + label {
+  display: inline-block;
+  padding: 5px;
+  border: 2px solid transparent; /* Pas de bordure visible par défaut */
+  cursor: pointer;
+}
+/* Appliquer une bordure noire lorsque le bouton radio est sélectionné */
+input[type="radio"].custom-radio2:checked + label {
+  border: 3px solid white; /* Bordure noire quand le bouton est coché */
+}
+/* Style des images dans les labels pour s'assurer qu'elles sont bien redimensionnées */
+input[type="radio"].custom-radio2 + label img {
+  max-width: 100px; /* Ajuster la largeur des images selon le besoin */
+  height: auto;
+  display: block;
+}
+
+.container{
+  border: 0;
+}
+
