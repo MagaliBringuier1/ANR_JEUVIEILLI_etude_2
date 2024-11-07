@@ -2544,37 +2544,7 @@ if (this.data.reponse_t == "1_6") {
                 "": ""
               },
               "parameters": {},
-              "messageHandlers": {
-                "before:prepare": function anonymous(
-) {
-function randomID(){
-  const length = 10;
-  let result = "";
-  const chars = "0123456789abcdefghjklmnopqrstuvwxyz";
-  for (let i = 0; i < length; i++) {
-    result += chars[Math.floor(Math.random() * chars.length)];
-  }
-  return result;
-}
-
-const filename = `${randomID()}-data.json`
-
-const dataJSON = study.internals.controller.datastore.exportJson();
-
-fetch("https://pipe.jspsych.org/api/data/", {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json",
-    Accept: "*/*",
-  },
-  body: JSON.stringify({
-    experimentID: "XaOAL7eRrHcT",
-    filename: filename,
-    data: dataJSON,
-  }),
-});
-}
-              },
+              "messageHandlers": {},
               "title": "final_consent"
             }
           ]
@@ -5036,37 +5006,7 @@ if (this.data.reponse_t == "1_6") {
                 "": ""
               },
               "parameters": {},
-              "messageHandlers": {
-                "before:prepare": function anonymous(
-) {
-function randomID(){
-  const length = 10;
-  let result = "";
-  const chars = "0123456789abcdefghjklmnopqrstuvwxyz";
-  for (let i = 0; i < length; i++) {
-    result += chars[Math.floor(Math.random() * chars.length)];
-  }
-  return result;
-}
-
-const filename = `${randomID()}-data.json`
-
-const dataJSON = study.internals.controller.datastore.exportJson();
-
-fetch("https://pipe.jspsych.org/api/data/", {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json",
-    Accept: "*/*",
-  },
-  body: JSON.stringify({
-    experimentID: "XaOAL7eRrHcT",
-    filename: filename,
-    data: dataJSON,
-  }),
-});
-}
-              },
+              "messageHandlers": {},
               "title": "final_consent"
             }
           ]
@@ -7528,8 +7468,33 @@ if (this.data.reponse_t == "1_6") {
                 "": ""
               },
               "parameters": {},
-              "messageHandlers": {
-                "before:prepare": function anonymous(
+              "messageHandlers": {},
+              "title": "final_consent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "required": true,
+          "type": "html",
+          "content": " \u003Cmain class=\"content-vertical-center\r\n             content-horizontal-center\"\u003E\r\n \u003Cdiv style=\"font-size: 1.2vw; width: 70%;\"\u003E  \r\n\r\n\u003Cp style=\"text-align: justify;\"\u003EVous avez terminé. L'entièreté de cette étude est anonyme et aucune des données recueillies ne permet de vous identifier. \u003C\u002Fp\u003E\r\n\r\n\u003Cp style=\"text-align: justify;\"\u003ENous vous remercions de votre participation.\u003C\u002Fp\u003E\r\n\u003Cp style=\"text-align: justify;\"\u003EPour toutes questions relatives à cette étude, veuillez prendre contact avec la responsable de projet, Mme Valérie Le Floch, professeure des universités et disponible à l'adresse suivante : valerie.le-floch@univ-tlse2.fr\u003C\u002Fp\u003E\r\n\r\n\u003Cp style=\"text-align: justify;\"\u003E Vous pouvez fermer cette page.\u003C\u002Fp\u003E\r\n \u003C\u002Fdiv\u003E\r\n  \u003C\u002Fmain\u003E",
+          "name": ""
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {},
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {
+        "before:prepare": function anonymous(
 ) {
 function randomID(){
   const length = 10;
@@ -7552,18 +7517,14 @@ fetch("https://pipe.jspsych.org/api/data/", {
     Accept: "*/*",
   },
   body: JSON.stringify({
-    experimentID: "XaOAL7eRrHcT",
+    experimentID: "MdEBAfiAdDUJ",
     filename: filename,
     data: dataJSON,
   }),
 });
 }
-              },
-              "title": "final_consent"
-            }
-          ]
-        }
-      ]
+      },
+      "title": "end_study"
     }
   ]
 })
