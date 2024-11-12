@@ -2221,7 +2221,7 @@ if (this.data.reponse_t == "1_6") {
                         {
                           "type": "text",
                           "content": "",
-                          "title": "Misez-vous de l'argent au Poker ? Si oui, combien en moyenne par session ?"
+                          "title": "Misez-vous de l'argent au Loto\u002FEuromillion\u002FKeno ? Si oui, combien en moyenne par session ?"
                         },
                         {
                           "required": true,
@@ -4683,7 +4683,7 @@ if (this.data.reponse_t == "1_6") {
                         {
                           "type": "text",
                           "content": "",
-                          "title": "Misez-vous de l'argent au Poker ? Si oui, combien en moyenne par session ?"
+                          "title": "Misez-vous de l'argent au Loto\u002FEuromillion\u002FKeno ? Si oui, combien en moyenne par session ?"
                         },
                         {
                           "required": true,
