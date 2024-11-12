@@ -232,7 +232,7 @@ this.parent.parameters.pptID = randomID();
                                 "submitButtonText": "Continue →",
                                 "submitButtonPosition": "right",
                                 "files": {
-                                  "jeu_consigne1.PNG": "embedded\u002F23c9add9f482e5e3c4e6a6d180926fc4bc1c985369d506accfde3d4e31ea2625.PNG"
+                                  "jeu_consigne1.PNG": "embedded\u002F37e8bf6ee8914836deb0184d94e6cf08ed59cd4a8f4ca6a6f9d7aac117d2f83d.PNG"
                                 },
                                 "responses": {
                                   "": ""
@@ -255,7 +255,7 @@ this.parent.parameters.pptID = randomID();
                                 "submitButtonText": "Continue →",
                                 "submitButtonPosition": "right",
                                 "files": {
-                                  "jeu_consigne2.png": "embedded\u002Fc7accd742bee68166e63cfcc54897282baf7abd243aa5c98308585bbea08ae1c.png"
+                                  "jeu_consigne2.png": "embedded\u002F7f13321de63e3ce4258e3d948149c66360183d70824724bf49c233a11f8ce51a.png"
                                 },
                                 "responses": {
                                   "": ""
@@ -278,7 +278,7 @@ this.parent.parameters.pptID = randomID();
                                 "submitButtonText": "Continue →",
                                 "submitButtonPosition": "right",
                                 "files": {
-                                  "jeu_consigne3.png": "embedded\u002Fcca79cc4acf65793cc2e58c725a9cf71a5cc8e281b067dbaf371752b223deb23.png"
+                                  "jeu_consigne3.png": "embedded\u002F2f8642962e4c09e0821c50071bae371c6b463f6a1228ad5554a16fa3030602d0.png"
                                 },
                                 "responses": {
                                   "": ""
@@ -301,7 +301,7 @@ this.parent.parameters.pptID = randomID();
                                 "submitButtonText": "Continue →",
                                 "submitButtonPosition": "right",
                                 "files": {
-                                  "jeu_consigne4.png": "embedded\u002Fd9d6cf7960fe01b2200ef0803d3fbb16edffc8abce1208a587bc6957b5638cb5.png"
+                                  "jeu_consigne4.png": "embedded\u002Fb5d63a9843df165840e4556145345bd4107082989255168833b21f7a5f3d6761.png"
                                 },
                                 "responses": {
                                   "": ""
@@ -324,7 +324,7 @@ this.parent.parameters.pptID = randomID();
                                 "submitButtonText": "Continue →",
                                 "submitButtonPosition": "right",
                                 "files": {
-                                  "jeu_consigne5.png": "embedded\u002F40f7efc10e784f1723c702b9e1fc78a5a768bb3bb64b3a70be54a979ebea4127.png"
+                                  "jeu_consigne5.png": "embedded\u002Ff2934844dace66d93fbdf7f97cff66c5d7c6e9e68afd458a4ddf627fdda33522.png"
                                 },
                                 "responses": {
                                   "": ""
@@ -828,7 +828,7 @@ this.parameters.cagnotte = 299;
                                   {
                                     "required": true,
                                     "type": "html",
-                                    "content": "\u003Cdiv class=\"partie-jeu\"\u003E\r\n\u003Ch4\u003E\u003Cp\u003ECagnotte actuelle : ${this.state.cagnotte} jetons\u003C\u002Fp\u003E\u003C\u002Fh4\u003E\r\n\r\n\u003Ch3\u003E${this.state.message}\u003C\u002Fh3\u003E\r\n\r\n\u003Cdiv class=\"input-container\"\u003E\r\n    \u003Cinput type=\"number\" id = \"montant\" required name=\"montant\" placeholder=\"Entrez votre mise\" min=\"1\" max= \"${this.state.cagnotte}\"\u003E\r\n      \u003Cspan class=\"input-text\"\u003Ejetons\u003C\u002Fspan\u003E\r\n\u003C\u002Fdiv\u003E\r\n\r\n\u003Cdiv class=\"container\"\u003E\r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" required name = \"tas_choisi\" id = \"tas1\" value = \"tas1\"\u003E\r\n    \u003Clabel for =\"tas1\"\u003E\u003Cimg src=\"${\"static\u002Ftas1.PNG\"}\"\u003E\u003C\u002Flabel\u003E\r\n    \r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" name = \"tas_choisi\" id = \"tas2\" value = \"tas2\"\u003E\r\n    \u003Clabel for =\"tas2\"\u003E\u003Cimg src=\"${\"static\u002Ftas2.PNG\"}\"\u003E  \u003C\u002Flabel\u003E \r\n\r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" name = \"tas_choisi\" id = \"tas3\" value = \"tas3\"\u003E\r\n    \u003Clabel for =\"tas3\"\u003E\u003Cimg src=\"${\"static\u002Ftas3.PNG\"}\"\u003E\u003C\u002Flabel\u003E  \r\n    \r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" name = \"tas_choisi\" id = \"tas4\" value = \"tas4\"\u003E\r\n    \u003Clabel for =\"tas4\"\u003E\u003Cimg src=\"${\"static\u002Ftas4.PNG\"}\"\u003E\u003C\u002Flabel\u003E\r\n  \u003C\u002Fdiv\u003E\r\n  \r\n\u003Ccenter\u003E\r\n  \u003Cdiv id=\"continue_button\"\u003E\u003Cbutton id=\"next_button\"\u003EMiser\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003Ch3\u003E Vous pouvez quittez le jeu à tout moment en appuyant sur la touche \"q\" de votre clavier \u003C\u002Fh3\u003E\r\n\u003C\u002Fdiv\u003E",
+                                    "content": "\u003Cdiv class=\"partie-jeu\"\u003E\r\n\u003Ch4\u003E\u003Cp\u003ECagnotte actuelle : ${this.state.cagnotte} jetons\u003C\u002Fp\u003E\u003C\u002Fh4\u003E\r\n\r\n\u003Ch3\u003E${this.state.message}\u003C\u002Fh3\u003E\r\n\r\n\u003Cdiv class=\"input-container\"\u003E\r\n    \u003Cinput type=\"number\" id = \"montant\" required name=\"montant\" placeholder=\"Entrez votre mise\" min=\"1\" max= \"${this.state.cagnotte}\"\u003E\r\n      \u003Cspan class=\"input-text\"\u003Ejetons\u003C\u002Fspan\u003E\r\n\u003C\u002Fdiv\u003E\r\n\r\n\u003Cdiv class=\"container\"\u003E\r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" required name = \"tas_choisi\" id = \"tas1\" value = \"tas1\"\u003E\r\n    \u003Clabel for =\"tas1\"\u003E\u003Cimg src=\"${\"static\u002Ftas1.PNG\"}\"\u003E\u003C\u002Flabel\u003E\r\n    \r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" name = \"tas_choisi\" id = \"tas2\" value = \"tas2\"\u003E\r\n    \u003Clabel for =\"tas2\"\u003E\u003Cimg src=\"${\"static\u002Ftas2.PNG\"}\"\u003E  \u003C\u002Flabel\u003E \r\n\r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" name = \"tas_choisi\" id = \"tas3\" value = \"tas3\"\u003E\r\n    \u003Clabel for =\"tas3\"\u003E\u003Cimg src=\"${\"static\u002Ftas3.PNG\"}\"\u003E\u003C\u002Flabel\u003E  \r\n    \r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" name = \"tas_choisi\" id = \"tas4\" value = \"tas4\"\u003E\r\n    \u003Clabel for =\"tas4\"\u003E\u003Cimg src=\"${\"static\u002Ftas4.PNG\"}\"\u003E\u003C\u002Flabel\u003E\r\n  \u003C\u002Fdiv\u003E\r\n  \r\n\u003Ccenter\u003E\r\n  \u003Cdiv id=\"continue_button\"\u003E\u003Cbutton id=\"next_button\"\u003EMiser\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003Ch3\u003E Vous pouvez quitter le jeu à tout moment en appuyant sur la touche \"q\" de votre clavier \u003C\u002Fh3\u003E\r\n\u003C\u002Fdiv\u003E",
                                     "name": ""
                                   }
                                 ],
@@ -1075,7 +1075,7 @@ console.log("statut =", win_loose);
                                 "items": [
                                   {
                                     "type": "text",
-                                    "content": "A chaque fois, deux items vous seront proposés. Un écrit en bleu, un autre écrit en vert. \nPour vous positionnez sur la matrice de réponse, nous vous conseillons de procéder par étapes. ",
+                                    "content": "À chaque fois, deux items vous seront proposés. Un écrit en bleu, un autre écrit en vert. \nPour vous positionner sur la matrice de réponse, nous vous conseillons de procéder par étapes. ",
                                     "title": "Consignes"
                                   }
                                 ],
@@ -1607,7 +1607,7 @@ if (this.data.reponse_t == "1_6") {
                               {
                                 "required": true,
                                 "type": "text",
-                                "content": "\u003Cp\u003ELes propositions suivantes décrivent ce que vous pourriez penser en jouant à un \u003Cb\u003Ejeu de hasard et d'argent\u003C\u002Fb\u003E, au niveau des pertes \u003Cb\u003E\u003Cu\u003E et \u003C\u002Fu\u003E\u003C\u002Fb\u003E au niveau des gains. \u003C\u002Fp\u003E\nVeuillez considérer chacun des deux niveaux et indiquer à quel point vous êtes d'accord avec chaque proposition. Merci d'indiquer votre opinion en choisissant une cellule dans la matrice."
+                                "content": "\u003Cp\u003ELes propositions suivantes décrivent ce que vous pourriez penser en jouant à un \u003Cb\u003Ejeu de hasard et d'argent (par exemple : tickets à gratter, roulette, loto, etc.)\u003C\u002Fb\u003E, au niveau des pertes \u003Cb\u003E\u003Cu\u003E et \u003C\u002Fu\u003E\u003C\u002Fb\u003E au niveau des gains. \u003C\u002Fp\u003E\nVeuillez considérer chacun des deux niveaux et indiquer à quel point vous êtes d'accord avec chaque proposition. Merci d'indiquer votre opinion en choisissant une cellule dans la matrice."
                               },
                               {
                                 "required": true,
@@ -2694,7 +2694,7 @@ this.parent.parameters.pptID = randomID();
                                 "submitButtonText": "Continue →",
                                 "submitButtonPosition": "right",
                                 "files": {
-                                  "jeu_consigne1.PNG": "embedded\u002F23c9add9f482e5e3c4e6a6d180926fc4bc1c985369d506accfde3d4e31ea2625.PNG"
+                                  "jeu_consigne1.PNG": "embedded\u002F37e8bf6ee8914836deb0184d94e6cf08ed59cd4a8f4ca6a6f9d7aac117d2f83d.PNG"
                                 },
                                 "responses": {
                                   "": ""
@@ -2717,7 +2717,7 @@ this.parent.parameters.pptID = randomID();
                                 "submitButtonText": "Continue →",
                                 "submitButtonPosition": "right",
                                 "files": {
-                                  "jeu_consigne2.png": "embedded\u002Fc7accd742bee68166e63cfcc54897282baf7abd243aa5c98308585bbea08ae1c.png"
+                                  "jeu_consigne2.png": "embedded\u002F7f13321de63e3ce4258e3d948149c66360183d70824724bf49c233a11f8ce51a.png"
                                 },
                                 "responses": {
                                   "": ""
@@ -2740,7 +2740,7 @@ this.parent.parameters.pptID = randomID();
                                 "submitButtonText": "Continue →",
                                 "submitButtonPosition": "right",
                                 "files": {
-                                  "jeu_consigne3.png": "embedded\u002Fcca79cc4acf65793cc2e58c725a9cf71a5cc8e281b067dbaf371752b223deb23.png"
+                                  "jeu_consigne3.png": "embedded\u002F2f8642962e4c09e0821c50071bae371c6b463f6a1228ad5554a16fa3030602d0.png"
                                 },
                                 "responses": {
                                   "": ""
@@ -2763,7 +2763,7 @@ this.parent.parameters.pptID = randomID();
                                 "submitButtonText": "Continue →",
                                 "submitButtonPosition": "right",
                                 "files": {
-                                  "jeu_consigne4.png": "embedded\u002Fd9d6cf7960fe01b2200ef0803d3fbb16edffc8abce1208a587bc6957b5638cb5.png"
+                                  "jeu_consigne4.png": "embedded\u002Fb5d63a9843df165840e4556145345bd4107082989255168833b21f7a5f3d6761.png"
                                 },
                                 "responses": {
                                   "": ""
@@ -2786,7 +2786,7 @@ this.parent.parameters.pptID = randomID();
                                 "submitButtonText": "Continue →",
                                 "submitButtonPosition": "right",
                                 "files": {
-                                  "jeu_consigne5.png": "embedded\u002F40f7efc10e784f1723c702b9e1fc78a5a768bb3bb64b3a70be54a979ebea4127.png"
+                                  "jeu_consigne5.png": "embedded\u002Ff2934844dace66d93fbdf7f97cff66c5d7c6e9e68afd458a4ddf627fdda33522.png"
                                 },
                                 "responses": {
                                   "": ""
@@ -3290,7 +3290,7 @@ this.parameters.cagnotte = 299;
                                   {
                                     "required": true,
                                     "type": "html",
-                                    "content": "\u003Cdiv class=\"partie-jeu\"\u003E\r\n\u003Ch4\u003E\u003Cp\u003ECagnotte actuelle : ${this.state.cagnotte} jetons\u003C\u002Fp\u003E\u003C\u002Fh4\u003E\r\n\r\n\u003Ch3\u003E${this.state.message}\u003C\u002Fh3\u003E\r\n\r\n\u003Cdiv class=\"input-container\"\u003E\r\n    \u003Cinput type=\"number\" id = \"montant\" required name=\"montant\" placeholder=\"Entrez votre mise\" min=\"1\" max= \"${this.state.cagnotte}\"\u003E\r\n      \u003Cspan class=\"input-text\"\u003Ejetons\u003C\u002Fspan\u003E\r\n\u003C\u002Fdiv\u003E\r\n\r\n\u003Cdiv class=\"container\"\u003E\r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" required name = \"tas_choisi\" id = \"tas1\" value = \"tas1\"\u003E\r\n    \u003Clabel for =\"tas1\"\u003E\u003Cimg src=\"${\"static\u002Ftas1.PNG\"}\"\u003E\u003C\u002Flabel\u003E\r\n    \r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" name = \"tas_choisi\" id = \"tas2\" value = \"tas2\"\u003E\r\n    \u003Clabel for =\"tas2\"\u003E\u003Cimg src=\"${\"static\u002Ftas2.PNG\"}\"\u003E  \u003C\u002Flabel\u003E \r\n\r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" name = \"tas_choisi\" id = \"tas3\" value = \"tas3\"\u003E\r\n    \u003Clabel for =\"tas3\"\u003E\u003Cimg src=\"${\"static\u002Ftas3.PNG\"}\"\u003E\u003C\u002Flabel\u003E  \r\n    \r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" name = \"tas_choisi\" id = \"tas4\" value = \"tas4\"\u003E\r\n    \u003Clabel for =\"tas4\"\u003E\u003Cimg src=\"${\"static\u002Ftas4.PNG\"}\"\u003E\u003C\u002Flabel\u003E\r\n  \u003C\u002Fdiv\u003E\r\n  \r\n\u003Ccenter\u003E\r\n  \u003Cdiv id=\"continue_button\"\u003E\u003Cbutton id=\"next_button\"\u003EMiser\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003Ch3\u003E Vous pouvez quittez le jeu à tout moment en appuyant sur la touche \"q\" de votre clavier \u003C\u002Fh3\u003E\r\n\u003C\u002Fdiv\u003E",
+                                    "content": "\u003Cdiv class=\"partie-jeu\"\u003E\r\n\u003Ch4\u003E\u003Cp\u003ECagnotte actuelle : ${this.state.cagnotte} jetons\u003C\u002Fp\u003E\u003C\u002Fh4\u003E\r\n\r\n\u003Ch3\u003E${this.state.message}\u003C\u002Fh3\u003E\r\n\r\n\u003Cdiv class=\"input-container\"\u003E\r\n    \u003Cinput type=\"number\" id = \"montant\" required name=\"montant\" placeholder=\"Entrez votre mise\" min=\"1\" max= \"${this.state.cagnotte}\"\u003E\r\n      \u003Cspan class=\"input-text\"\u003Ejetons\u003C\u002Fspan\u003E\r\n\u003C\u002Fdiv\u003E\r\n\r\n\u003Cdiv class=\"container\"\u003E\r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" required name = \"tas_choisi\" id = \"tas1\" value = \"tas1\"\u003E\r\n    \u003Clabel for =\"tas1\"\u003E\u003Cimg src=\"${\"static\u002Ftas1.PNG\"}\"\u003E\u003C\u002Flabel\u003E\r\n    \r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" name = \"tas_choisi\" id = \"tas2\" value = \"tas2\"\u003E\r\n    \u003Clabel for =\"tas2\"\u003E\u003Cimg src=\"${\"static\u002Ftas2.PNG\"}\"\u003E  \u003C\u002Flabel\u003E \r\n\r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" name = \"tas_choisi\" id = \"tas3\" value = \"tas3\"\u003E\r\n    \u003Clabel for =\"tas3\"\u003E\u003Cimg src=\"${\"static\u002Ftas3.PNG\"}\"\u003E\u003C\u002Flabel\u003E  \r\n    \r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" name = \"tas_choisi\" id = \"tas4\" value = \"tas4\"\u003E\r\n    \u003Clabel for =\"tas4\"\u003E\u003Cimg src=\"${\"static\u002Ftas4.PNG\"}\"\u003E\u003C\u002Flabel\u003E\r\n  \u003C\u002Fdiv\u003E\r\n  \r\n\u003Ccenter\u003E\r\n  \u003Cdiv id=\"continue_button\"\u003E\u003Cbutton id=\"next_button\"\u003EMiser\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003Ch3\u003E Vous pouvez quitter le jeu à tout moment en appuyant sur la touche \"q\" de votre clavier \u003C\u002Fh3\u003E\r\n\u003C\u002Fdiv\u003E",
                                     "name": ""
                                   }
                                 ],
@@ -3537,7 +3537,7 @@ console.log("statut =", win_loose);
                                 "items": [
                                   {
                                     "type": "text",
-                                    "content": "A chaque fois, deux items vous seront proposés. Un écrit en bleu, un autre écrit en vert. \nPour vous positionnez sur la matrice de réponse, nous vous conseillons de procéder par étapes. ",
+                                    "content": "À chaque fois, deux items vous seront proposés. Un écrit en bleu, un autre écrit en vert. \nPour vous positionner sur la matrice de réponse, nous vous conseillons de procéder par étapes. ",
                                     "title": "Consignes"
                                   }
                                 ],
@@ -4069,7 +4069,7 @@ if (this.data.reponse_t == "1_6") {
                               {
                                 "required": true,
                                 "type": "text",
-                                "content": "\u003Cp\u003ELes propositions suivantes décrivent ce que vous pourriez penser en jouant à un \u003Cb\u003Ejeu de hasard et d'argent\u003C\u002Fb\u003E, au niveau des pertes \u003Cb\u003E\u003Cu\u003E et \u003C\u002Fu\u003E\u003C\u002Fb\u003E au niveau des gains. \u003C\u002Fp\u003E\nVeuillez considérer chacun des deux niveaux et indiquer à quel point vous êtes d'accord avec chaque proposition. Merci d'indiquer votre opinion en choisissant une cellule dans la matrice."
+                                "content": "\u003Cp\u003ELes propositions suivantes décrivent ce que vous pourriez penser en jouant à un \u003Cb\u003Ejeu de hasard et d'argent (par exemple : tickets à gratter, roulette, loto, etc.)\u003C\u002Fb\u003E, au niveau des pertes \u003Cb\u003E\u003Cu\u003E et \u003C\u002Fu\u003E\u003C\u002Fb\u003E au niveau des gains. \u003C\u002Fp\u003E\nVeuillez considérer chacun des deux niveaux et indiquer à quel point vous êtes d'accord avec chaque proposition. Merci d'indiquer votre opinion en choisissant une cellule dans la matrice."
                               },
                               {
                                 "required": true,
@@ -5156,7 +5156,7 @@ this.parent.parameters.pptID = randomID();
                                 "submitButtonText": "Continue →",
                                 "submitButtonPosition": "right",
                                 "files": {
-                                  "jeu_consigne1.PNG": "embedded\u002F23c9add9f482e5e3c4e6a6d180926fc4bc1c985369d506accfde3d4e31ea2625.PNG"
+                                  "jeu_consigne1.PNG": "embedded\u002F37e8bf6ee8914836deb0184d94e6cf08ed59cd4a8f4ca6a6f9d7aac117d2f83d.PNG"
                                 },
                                 "responses": {
                                   "": ""
@@ -5179,7 +5179,7 @@ this.parent.parameters.pptID = randomID();
                                 "submitButtonText": "Continue →",
                                 "submitButtonPosition": "right",
                                 "files": {
-                                  "jeu_consigne2.png": "embedded\u002Fc7accd742bee68166e63cfcc54897282baf7abd243aa5c98308585bbea08ae1c.png"
+                                  "jeu_consigne2.png": "embedded\u002F7f13321de63e3ce4258e3d948149c66360183d70824724bf49c233a11f8ce51a.png"
                                 },
                                 "responses": {
                                   "": ""
@@ -5202,7 +5202,7 @@ this.parent.parameters.pptID = randomID();
                                 "submitButtonText": "Continue →",
                                 "submitButtonPosition": "right",
                                 "files": {
-                                  "jeu_consigne3.png": "embedded\u002Fcca79cc4acf65793cc2e58c725a9cf71a5cc8e281b067dbaf371752b223deb23.png"
+                                  "jeu_consigne3.png": "embedded\u002F2f8642962e4c09e0821c50071bae371c6b463f6a1228ad5554a16fa3030602d0.png"
                                 },
                                 "responses": {
                                   "": ""
@@ -5225,7 +5225,7 @@ this.parent.parameters.pptID = randomID();
                                 "submitButtonText": "Continue →",
                                 "submitButtonPosition": "right",
                                 "files": {
-                                  "jeu_consigne4.png": "embedded\u002Fd9d6cf7960fe01b2200ef0803d3fbb16edffc8abce1208a587bc6957b5638cb5.png"
+                                  "jeu_consigne4.png": "embedded\u002Fb5d63a9843df165840e4556145345bd4107082989255168833b21f7a5f3d6761.png"
                                 },
                                 "responses": {
                                   "": ""
@@ -5248,7 +5248,7 @@ this.parent.parameters.pptID = randomID();
                                 "submitButtonText": "Continue →",
                                 "submitButtonPosition": "right",
                                 "files": {
-                                  "jeu_consigne5.png": "embedded\u002F40f7efc10e784f1723c702b9e1fc78a5a768bb3bb64b3a70be54a979ebea4127.png"
+                                  "jeu_consigne5.png": "embedded\u002Ff2934844dace66d93fbdf7f97cff66c5d7c6e9e68afd458a4ddf627fdda33522.png"
                                 },
                                 "responses": {
                                   "": ""
@@ -5752,7 +5752,7 @@ this.parameters.cagnotte = 299;
                                   {
                                     "required": true,
                                     "type": "html",
-                                    "content": "\u003Cdiv class=\"partie-jeu\"\u003E\r\n\u003Ch4\u003E\u003Cp\u003ECagnotte actuelle : ${this.state.cagnotte} jetons\u003C\u002Fp\u003E\u003C\u002Fh4\u003E\r\n\r\n\u003Ch3\u003E${this.state.message}\u003C\u002Fh3\u003E\r\n\r\n\u003Cdiv class=\"input-container\"\u003E\r\n    \u003Cinput type=\"number\" id = \"montant\" required name=\"montant\" placeholder=\"Entrez votre mise\" min=\"1\" max= \"${this.state.cagnotte}\"\u003E\r\n      \u003Cspan class=\"input-text\"\u003Ejetons\u003C\u002Fspan\u003E\r\n\u003C\u002Fdiv\u003E\r\n\r\n\u003Cdiv class=\"container\"\u003E\r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" required name = \"tas_choisi\" id = \"tas1\" value = \"tas1\"\u003E\r\n    \u003Clabel for =\"tas1\"\u003E\u003Cimg src=\"${\"static\u002Ftas1.PNG\"}\"\u003E\u003C\u002Flabel\u003E\r\n    \r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" name = \"tas_choisi\" id = \"tas2\" value = \"tas2\"\u003E\r\n    \u003Clabel for =\"tas2\"\u003E\u003Cimg src=\"${\"static\u002Ftas2.PNG\"}\"\u003E  \u003C\u002Flabel\u003E \r\n\r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" name = \"tas_choisi\" id = \"tas3\" value = \"tas3\"\u003E\r\n    \u003Clabel for =\"tas3\"\u003E\u003Cimg src=\"${\"static\u002Ftas3.PNG\"}\"\u003E\u003C\u002Flabel\u003E  \r\n    \r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" name = \"tas_choisi\" id = \"tas4\" value = \"tas4\"\u003E\r\n    \u003Clabel for =\"tas4\"\u003E\u003Cimg src=\"${\"static\u002Ftas4.PNG\"}\"\u003E\u003C\u002Flabel\u003E\r\n  \u003C\u002Fdiv\u003E\r\n  \r\n\u003Ccenter\u003E\r\n  \u003Cdiv id=\"continue_button\"\u003E\u003Cbutton id=\"next_button\"\u003EMiser\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003Ch3\u003E Vous pouvez quittez le jeu à tout moment en appuyant sur la touche \"q\" de votre clavier \u003C\u002Fh3\u003E\r\n\u003C\u002Fdiv\u003E",
+                                    "content": "\u003Cdiv class=\"partie-jeu\"\u003E\r\n\u003Ch4\u003E\u003Cp\u003ECagnotte actuelle : ${this.state.cagnotte} jetons\u003C\u002Fp\u003E\u003C\u002Fh4\u003E\r\n\r\n\u003Ch3\u003E${this.state.message}\u003C\u002Fh3\u003E\r\n\r\n\u003Cdiv class=\"input-container\"\u003E\r\n    \u003Cinput type=\"number\" id = \"montant\" required name=\"montant\" placeholder=\"Entrez votre mise\" min=\"1\" max= \"${this.state.cagnotte}\"\u003E\r\n      \u003Cspan class=\"input-text\"\u003Ejetons\u003C\u002Fspan\u003E\r\n\u003C\u002Fdiv\u003E\r\n\r\n\u003Cdiv class=\"container\"\u003E\r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" required name = \"tas_choisi\" id = \"tas1\" value = \"tas1\"\u003E\r\n    \u003Clabel for =\"tas1\"\u003E\u003Cimg src=\"${\"static\u002Ftas1.PNG\"}\"\u003E\u003C\u002Flabel\u003E\r\n    \r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" name = \"tas_choisi\" id = \"tas2\" value = \"tas2\"\u003E\r\n    \u003Clabel for =\"tas2\"\u003E\u003Cimg src=\"${\"static\u002Ftas2.PNG\"}\"\u003E  \u003C\u002Flabel\u003E \r\n\r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" name = \"tas_choisi\" id = \"tas3\" value = \"tas3\"\u003E\r\n    \u003Clabel for =\"tas3\"\u003E\u003Cimg src=\"${\"static\u002Ftas3.PNG\"}\"\u003E\u003C\u002Flabel\u003E  \r\n    \r\n    \u003Cinput type=\"radio\" class=\"custom-radio2\" name = \"tas_choisi\" id = \"tas4\" value = \"tas4\"\u003E\r\n    \u003Clabel for =\"tas4\"\u003E\u003Cimg src=\"${\"static\u002Ftas4.PNG\"}\"\u003E\u003C\u002Flabel\u003E\r\n  \u003C\u002Fdiv\u003E\r\n  \r\n\u003Ccenter\u003E\r\n  \u003Cdiv id=\"continue_button\"\u003E\u003Cbutton id=\"next_button\"\u003EMiser\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n\u003C\u002Fcenter\u003E\r\n\r\n\u003Ch3\u003E Vous pouvez quitter le jeu à tout moment en appuyant sur la touche \"q\" de votre clavier \u003C\u002Fh3\u003E\r\n\u003C\u002Fdiv\u003E",
                                     "name": ""
                                   }
                                 ],
@@ -5999,7 +5999,7 @@ console.log("statut =", win_loose);
                                 "items": [
                                   {
                                     "type": "text",
-                                    "content": "A chaque fois, deux items vous seront proposés. Un écrit en bleu, un autre écrit en vert. \nPour vous positionnez sur la matrice de réponse, nous vous conseillons de procéder par étapes. ",
+                                    "content": "À chaque fois, deux items vous seront proposés. Un écrit en bleu, un autre écrit en vert. \nPour vous positionner sur la matrice de réponse, nous vous conseillons de procéder par étapes. ",
                                     "title": "Consignes"
                                   }
                                 ],
@@ -6531,7 +6531,7 @@ if (this.data.reponse_t == "1_6") {
                               {
                                 "required": true,
                                 "type": "text",
-                                "content": "\u003Cp\u003ELes propositions suivantes décrivent ce que vous pourriez penser en jouant à un \u003Cb\u003Ejeu de hasard et d'argent\u003C\u002Fb\u003E, au niveau des pertes \u003Cb\u003E\u003Cu\u003E et \u003C\u002Fu\u003E\u003C\u002Fb\u003E au niveau des gains. \u003C\u002Fp\u003E\nVeuillez considérer chacun des deux niveaux et indiquer à quel point vous êtes d'accord avec chaque proposition. Merci d'indiquer votre opinion en choisissant une cellule dans la matrice."
+                                "content": "\u003Cp\u003ELes propositions suivantes décrivent ce que vous pourriez penser en jouant à un \u003Cb\u003Ejeu de hasard et d'argent (par exemple : tickets à gratter, roulette, loto, etc.)\u003C\u002Fb\u003E, au niveau des pertes \u003Cb\u003E\u003Cu\u003E et \u003C\u002Fu\u003E\u003C\u002Fb\u003E au niveau des gains. \u003C\u002Fp\u003E\nVeuillez considérer chacun des deux niveaux et indiquer à quel point vous êtes d'accord avec chaque proposition. Merci d'indiquer votre opinion en choisissant une cellule dans la matrice."
                               },
                               {
                                 "required": true,
@@ -6809,7 +6809,7 @@ if (this.data.reponse_t == "1_6") {
                   "items": [
                     {
                       "type": "text",
-                      "title": "Vous avez indiqué avoir joué à un ou plusieurs jeux de hasard et d'argent au cours de ces 12 dernier mois.",
+                      "title": "Vous avez indiqué avoir joué à un ou plusieurs jeux de hasard et d'argent au cours de ces 12 derniers mois.",
                       "content": "Parmi la liste suivante, veuillez indiquer les jeux auxquels vous avez joué. "
                     },
                     {
@@ -7145,7 +7145,7 @@ if (this.data.reponse_t == "1_6") {
                         {
                           "type": "text",
                           "content": "",
-                          "title": "Misez-vous de l'argent au Poker ? Si oui, combien en moyenne par session ?"
+                          "title": "Misez-vous de l'argent au au Loto\u002FEuromillion\u002FKeno ? Si oui, combien en moyenne par session ?"
                         },
                         {
                           "required": true,
@@ -7476,21 +7476,10 @@ if (this.data.reponse_t == "1_6") {
       ]
     },
     {
-      "type": "lab.html.Page",
-      "items": [
-        {
-          "required": true,
-          "type": "html",
-          "content": " \u003Cmain class=\"content-vertical-center\r\n             content-horizontal-center\"\u003E\r\n \u003Cdiv style=\"font-size: 1.2vw; width: 70%;\"\u003E  \r\n\r\n\u003Cp style=\"text-align: justify;\"\u003EVous avez terminé. L'entièreté de cette étude est anonyme et aucune des données recueillies ne permet de vous identifier. \u003C\u002Fp\u003E\r\n\r\n\u003Cp style=\"text-align: justify;\"\u003ENous vous remercions de votre participation.\u003C\u002Fp\u003E\r\n\u003Cp style=\"text-align: justify;\"\u003EPour toutes questions relatives à cette étude, veuillez prendre contact avec la responsable de projet, Mme Valérie Le Floch, professeure des universités et disponible à l'adresse suivante : valerie.le-floch@univ-tlse2.fr\u003C\u002Fp\u003E\r\n\r\n\u003Cp style=\"text-align: justify;\"\u003E Vous pouvez fermer cette page.\u003C\u002Fp\u003E\r\n \u003C\u002Fdiv\u003E\r\n  \u003C\u002Fmain\u003E",
-          "name": ""
-        }
-      ],
-      "scrollTop": true,
-      "submitButtonText": "Continue →",
-      "submitButtonPosition": "right",
+      "type": "lab.html.Screen",
       "files": {},
       "responses": {
-        "": ""
+        "keypress(Space)": "end_study"
       },
       "parameters": {},
       "messageHandlers": {
@@ -7524,7 +7513,9 @@ fetch("https://pipe.jspsych.org/api/data/", {
 });
 }
       },
-      "title": "end_study"
+      "title": "end_study",
+      "content": " \u003Cmain class=\"content-vertical-center\r\n             content-horizontal-center\"\u003E\r\n \u003Cdiv style=\"font-size: 1.2vw; width: 70%;\"\u003E  \r\n\r\n\u003Cp style=\"text-align: justify;\"\u003EVous avez terminé. L'entièreté de cette étude est anonyme et aucune des données recueillies ne permet de vous identifier. \u003C\u002Fp\u003E\r\n\r\n\u003Cp style=\"text-align: justify;\"\u003ENous vous remercions de votre participation.\u003C\u002Fp\u003E\r\n\u003Cp style=\"text-align: justify;\"\u003EPour toutes questions relatives à cette étude, veuillez prendre contact avec la responsable de projet, Mme Valérie Le Floch, professeure des universités et disponible à l'adresse suivante : valerie.le-floch@univ-tlse2.fr\u003C\u002Fp\u003E\r\n\r\n\u003Cp style=\"text-align: justify;\"\u003E Vous pouvez fermer cette page.\u003C\u002Fp\u003E\r\n \u003C\u002Fdiv\u003E\r\n  \u003C\u002Fmain\u003E",
+      "tardy": true
     }
   ]
 })
