@@ -59,7 +59,7 @@ this.parent.parameters.contrebal_set = this.random.choice(['hasard', 'risque', '
       "items": [
         {
           "type": "text",
-          "content": "\u003Cp\u003ENous remercions de l'intérêt que vous avez porté à cette étude.\u003C\u002Fp\u003E\n\u003Cp\u003EVous avez été redirigé sur cette page car vous avez refusé de participer à l'étude. \u003C\u002Fp\u003E\n\u003Cbr\u003E\n\u003Cp\u003E\u003Cb\u003ESi c'est une erreur et que vous souhaitez participer à notre étude, \nveuillez cliquer à nouveau sur le lien afin de relancer l'étude.\u003C\u002Fb\u003E \u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003Cb\u003ESi vous ne souhaitez pas participer, vous pouvez fermer la page en cliquant sur la croix. \u003C\u002Fb\u003E\u003C\u002Fp\u003E"
+          "content": "\u003Cp\u003ENous remercions de l'intérêt que vous avez porté à cette étude.\u003C\u002Fp\u003E\n\u003Cp\u003EVous avez été redirigé sur cette page car vous avez refusé de participer à l'étude. \u003C\u002Fp\u003E\n\u003Cbr\u003E\n\u003Cp\u003E\u003Cb\u003ESi c'est une erreur et que vous souhaitez participer à notre étude, \nveuillez cliquer à nouveau sur le lien afin de relancer l'étude.\u003C\u002Fb\u003E \u003C\u002Fp\u003E\n\n\u003Cp style=\"text-align: justify;\"\u003ESi vous ne souhaitez pas participer, et retourner sur Panelabs \u003Ca href=\"https:\u002F\u002Fsurveys.madeinsurveys.com\u002F25273\u002Freturn.php?sco=s\"\u003E veuillez cliquer ici. \u003C\u002Fa\u003E\u003C\u002Fp\u003E\n\n\u003Cp\u003E\u003Cb\u003ESi vous ne souhaitez pas participer, vous pouvez fermer la page en cliquant sur la croix. \u003C\u002Fb\u003E\u003C\u002Fp\u003E"
         }
       ],
       "scrollTop": true,
@@ -487,7 +487,7 @@ this.state.cagnotte_t = this.parent.parameters.cagnotte_t || this.parameters.cag
 
 }
                                     },
-                                    "title": "resultat",
+                                    "title": "resultat_t",
                                     "tardy": true
                                   },
                                   {
@@ -616,7 +616,7 @@ console.log("statut =", win_loose);
                                     },
                                     "parameters": {},
                                     "messageHandlers": {},
-                                    "title": "resultat",
+                                    "title": "resultat_t",
                                     "tardy": true
                                   },
                                   {
@@ -2931,7 +2931,7 @@ this.state.cagnotte_t = this.parent.parameters.cagnotte_t || this.parameters.cag
 
 }
                                     },
-                                    "title": "resultat",
+                                    "title": "resultat_t",
                                     "tardy": true
                                   },
                                   {
@@ -3060,7 +3060,7 @@ console.log("statut =", win_loose);
                                     },
                                     "parameters": {},
                                     "messageHandlers": {},
-                                    "title": "resultat",
+                                    "title": "resultat_t",
                                     "tardy": true
                                   },
                                   {
@@ -5375,7 +5375,7 @@ this.state.cagnotte_t = this.parent.parameters.cagnotte_t || this.parameters.cag
 
 }
                                     },
-                                    "title": "resultat",
+                                    "title": "resultat_t",
                                     "tardy": true
                                   },
                                   {
@@ -5504,7 +5504,7 @@ console.log("statut =", win_loose);
                                     },
                                     "parameters": {},
                                     "messageHandlers": {},
-                                    "title": "resultat",
+                                    "title": "resultat_t",
                                     "tardy": true
                                   },
                                   {
@@ -7460,7 +7460,7 @@ fetch("https://pipe.jspsych.org/api/data/", {
 }
       },
       "title": "end_study",
-      "content": " \u003Cmain class=\"content-vertical-center\r\n             content-horizontal-center\"\u003E\r\n \u003Cdiv style=\"font-size: 1.2vw; width: 70%;\"\u003E  \r\n\r\n\u003Cp style=\"text-align: justify;\"\u003EVous avez terminé. L'entièreté de cette étude est anonyme et aucune des données recueillies ne permet de vous identifier. \u003C\u002Fp\u003E\r\n\r\n\u003Cp style=\"text-align: justify;\"\u003ENous vous remercions de votre participation.\u003C\u002Fp\u003E\r\n\u003Cp style=\"text-align: justify;\"\u003EPour toutes questions relatives à cette étude, veuillez prendre contact avec la responsable de projet, Mme Valérie Le Floch, professeure des universités et disponible à l'adresse suivante : valerie.le-floch@univ-tlse2.fr\u003C\u002Fp\u003E\r\n\r\n\u003Cp style=\"text-align: justify;\"\u003E Vous pouvez fermer cette page.\u003C\u002Fp\u003E\r\n \u003C\u002Fdiv\u003E\r\n  \u003C\u002Fmain\u003E",
+      "content": " \u003Cmain class=\"content-vertical-center\r\n             content-horizontal-center\"\u003E\r\n \u003Cdiv style=\"font-size: 1.2vw; width: 70%;\"\u003E  \r\n\r\n\u003Cp style=\"text-align: justify;\"\u003EVous avez terminé. L'entièreté de cette étude est anonyme et aucune des données recueillies ne permet de vous identifier. \u003C\u002Fp\u003E\r\n\r\n\u003Cp style=\"text-align: justify;\"\u003ENous vous remercions de votre participation.\u003C\u002Fp\u003E\r\n\u003Cp style=\"text-align: justify;\"\u003EPour toutes questions relatives à cette étude, veuillez prendre contact avec la responsable de projet, Mme Valérie Le Floch, professeure des universités et disponible à l'adresse suivante : valerie.le-floch@univ-tlse2.fr\u003C\u002Fp\u003E\r\n\r\n\u003Cp style=\"text-align: justify;\"\u003E \u003Ca href=\"https:\u002F\u002Fsurveys.madeinsurveys.com\u002F25273\u002Freturn.php?com=c\"\u003EPour retourner sur panelabs et valider votre participation, veuillez cliquer ici. \u003C\u002Fa\u003E\u003C\u002Fp\u003E\r\n \u003C\u002Fdiv\u003E\r\n  \u003C\u002Fmain\u003E",
       "tardy": true
     }
   ]
