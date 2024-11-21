@@ -27,6 +27,26 @@ const study = lab.util.fromObject({
       "items": [
         {
           "type": "text",
+          "title": "Merci d'indiquer votre code d'accès : ",
+          "content": "\u003Cdiv class=\"input-container\"\u003E\n    \u003Cinput type=\"text\" id = \"code_panel\" required name=\"code_panel\" placeholder=\"Entrer votre code d'accès\" required\u003E\n\u003C\u002Fdiv\u003E"
+        }
+      ],
+      "scrollTop": true,
+      "submitButtonText": "Continue →",
+      "submitButtonPosition": "right",
+      "files": {},
+      "responses": {
+        "": ""
+      },
+      "parameters": {},
+      "messageHandlers": {},
+      "title": "code_panel"
+    },
+    {
+      "type": "lab.html.Page",
+      "items": [
+        {
+          "type": "text",
           "title": "Consentement libre et éclairé - Impact des messages préventifs sur les comportements de jeu.  ",
           "content": "\u003Cp\u003E \u003Cb\u003E Chercheur titulaire responsable scientifique du projet : \u003C\u002Fb\u003E\u003C\u002Fp\u003E\n\u003Cp\u003EValérie Le Floch, Professeure à l’Université Toulouse Jean Jaurès, laboratoire CNRS CLLE (Cognition, Langues, Langage et Ergonomie).\nE-mail : valerie.le-floch@univ-tlse2.fr\u003C\u002Fp\u003E\n\n\u003Cb\u003E But du projet de recherche, confidentialité et respect de la vie privée : \u003C\u002Fb\u003E\n\u003Cp style=\"text-align: justify;\"\u003ECe projet de recherche a pour objectif d’évaluer l’impact des messages de prévention sur les comportements de jeu. En acceptant de participer à cette étude, vous serez amené.e à prendre part à une simulation de jeu, puis à répondre à une série de questions. Vous disposez du temps que vous souhaitez pour répondre à cette étude. La participation à cette étude est volontaire et totalement anonyme, de ce fait, votre participation n’a absolument rien d’obligatoire. Vous pouvez stopper votre participation à tout moment sans avoir à vous justifier ni encourir aucune responsabilité. Votre consentement ne décharge pas les organisateurs de la recherche de leurs responsabilités et vous conservez tous vos droits garantis par la loi. \u003C\u002Fp\u003E\n\n\u003Cp style=\"text-align: justify;\"\u003EAu cours de cette expérience, vous acceptez que vos réponses soient enregistrées.  \u003Cb\u003E \u003Cu\u003E Vous comprenez que les informations recueillies sont strictement confidentielles et à usage exclusif des investigateurs concernés. L’adresse IP de votre ordinateur ne sera pas enregistrée et les données sociodémographiques que nous récolterons ne permettront pas de vous identifier, même par recoupement d’informations.  \u003C\u002Fu\u003E \u003C\u002Fb\u003E \u003C\u002Fp\u003E\n\n\u003Cp style=\"text-align: justify;\"\u003EDe plus, la présentation des données de cette expérience durant des colloques ou des publications scientifiques sera faite de telle sorte qu'il ne sera pas possible d'identifier les participants. Vous acceptez que les données enregistrées à l’occasion de cette étude puissent être conservées pendant 10 ans dans une base de données et faire l’objet d’un traitement informatisé non nominatif. Vous pourrez prendre connaissance des résultats généraux de la présente étude, en contactant le responsable scientifique de l’étude. \u003C\u002Fp\u003E\n\n\u003Cdiv style=\"border-radius: 5px; border: 2px solid; padding: 3px;\"\u003ECette étude comprend une phase de jeu, elle est donc fortement déconseillée aux personnes en cours de traitement du jeu excessif ou ressentant un problème de jeu. Le cas échéant, nous vous invitons à ne pas participer à cette étude et, si vous le souhaitez, à appeler le 09-74-75-13-13 (appel non surtaxé). \u003C\u002Fdiv\u003E\n\n\u003Cp style=\"text-align: justify;\"\u003EEn signant le formulaire de consentement, \u003Cb\u003Evous certifiez que vous avez lu et compris les renseignements ci-dessus, et qu’on vous a avisé que vous étiez libre d’annuler votre consentement ou de vous retirer de cette recherche, sans aucun préjudice. \u003C\u002Fb\u003ENéanmoins, une fois que vous aurez validé le questionnaire, \u003Cb\u003Eil ne sera plus possible de vous retirer de cette recherche,\u003C\u002Fb\u003E car nous n’aurons aucune donnée identifiante, pas même votre adresse IP, identifiant la localisation de votre connexion.\u003C\u002Fp\u003E\n \n\n \n\n \n"
         },
@@ -7460,7 +7480,7 @@ fetch("https://pipe.jspsych.org/api/data/", {
 }
       },
       "title": "end_study",
-      "content": " \u003Cmain class=\"content-vertical-center\r\n             content-horizontal-center\"\u003E\r\n \u003Cdiv style=\"font-size: 1.2vw; width: 70%;\"\u003E  \r\n\r\n\u003Cp style=\"text-align: justify;\"\u003EVous avez terminé. L'entièreté de cette étude est anonyme et aucune des données recueillies ne permet de vous identifier. \u003C\u002Fp\u003E\r\n\r\n\u003Cp style=\"text-align: justify;\"\u003ENous vous remercions de votre participation.\u003C\u002Fp\u003E\r\n\u003Cp style=\"text-align: justify;\"\u003EPour toutes questions relatives à cette étude, veuillez prendre contact avec la responsable de projet, Mme Valérie Le Floch, professeure des universités et disponible à l'adresse suivante : valerie.le-floch@univ-tlse2.fr\u003C\u002Fp\u003E\r\n\r\n\u003Cp style=\"text-align: justify;\"\u003E \u003Ca href=\"https:\u002F\u002Fsurveys.madeinsurveys.com\u002F25273\u002Freturn.php?com=c\"\u003EPour retourner sur panelabs et valider votre participation, veuillez cliquer ici. \u003C\u002Fa\u003E\u003C\u002Fp\u003E\r\n \u003C\u002Fdiv\u003E\r\n  \u003C\u002Fmain\u003E",
+      "content": " \u003Cmain class=\"content-vertical-center\r\n             content-horizontal-center\"\u003E\r\n \u003Cdiv style=\"font-size: 1.2vw; width: 70%;\"\u003E  \r\n\r\n\u003Cp style=\"text-align: justify;\"\u003EVous avez terminé. L'entièreté de cette étude est anonyme et aucune des données recueillies ne permet de vous identifier. \u003C\u002Fp\u003E\r\n\r\n\u003Cp style=\"text-align: justify;\"\u003ENous vous remercions de votre participation.\u003C\u002Fp\u003E\r\n\u003Cp style=\"text-align: justify;\"\u003EPour toutes questions relatives à cette étude, veuillez prendre contact avec la responsable de projet, Mme Valérie Le Floch, professeure des universités et disponible à l'adresse suivante : valerie.le-floch@univ-tlse2.fr\u003C\u002Fp\u003E\r\n\r\n\u003Cp style=\"text-align: justify; font-size: 2vw; color: red;\"\u003E \r\n    \u003Ca href=\"https:\u002F\u002Fsurveys.madeinsurveys.com\u002F25273\u002Freturn.php?com=c\" style=\"color: red;\"\u003EPour retourner sur votre site et être indemnisé(e), veuillez cliquer ici.\u003C\u002Fa\u003E\r\n\u003C\u002Fp\u003E\r\n \u003C\u002Fdiv\u003E\r\n  \u003C\u002Fmain\u003E",
       "tardy": true
     }
   ]
